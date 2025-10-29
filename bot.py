@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-BOT_TOKEN = "8474990891:AAEH1bGRI5WEtgqdo1yQUGObAJS1RUMLI-k"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 8297713790
 KANALLAR = [("@Kinomaniya_fast", "https://t.me/Kinomaniya_fast")]
 
