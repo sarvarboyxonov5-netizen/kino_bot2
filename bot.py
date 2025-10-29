@@ -78,5 +78,7 @@ def send_kino(message):
     elif message.text not in ["/upload", "/delete", "/start"]:
         bot.send_message(message.chat.id, "❌ Bunday kod topilmadi.\nIltimos, kodni to‘g‘ri kiriting.")
 
-print("🤖 Bot ishga tushdi...")
-bot.polling(none_stop=True)
+if __name__ == "__main__":
+    print("🤖 Bot ishga tushdi...")
+    bot.infinity_polling()
+
